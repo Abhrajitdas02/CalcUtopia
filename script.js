@@ -25,7 +25,7 @@ buttons.forEach((item) => {
       display.innerText = Math.PI.toFixed(14);
       }
     else if (item.id == "log") {
-      displayay.innerText = (Math.log10(display.innerText)).toFixed(14);
+      display.innerText = (Math.log10(display.innerText)).toFixed(14);
     }
     else if (item.id == "√") {
       display.innerText = (Math.sqrt(display.innerText)).toFixed(14);
